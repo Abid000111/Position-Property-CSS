@@ -1,0 +1,5 @@
+# Notice: position: relative; position: absolute; position: fixed; position: sticky; Exception: transform, filter, or perspective properties can also make an element appear as positioned. transform: translate(0); filter; invert(0); perspective: 0em
+
+Nev bar problem: Here this section has a problem. The problem is this section work properly with its CSS property when the parent class's position is relative but it doesn't work properly when the parent class's position is absolute but in the end of this page it works properly while the purple color box's position is absolute. the what is the problem with parent class?
+
+Fixed floating transparent box problem: Here i have a problem with this box. If the parent class's margin and padding is 0 then this box's width can be set 100vw otherwise this is not possible. Why this is happening?
