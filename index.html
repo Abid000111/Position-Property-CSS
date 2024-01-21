@@ -1,154 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Position Property - CSS</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Position Property - CSS</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+	<body>
+		<div class="box7">
+			<nav>
+				<p>
+					Here this section has a problem. The problem is this section work properly
+					with its CSS property when the parent class's position is relative but it
+					doesn't work properly when the parent class's position is absolute but in
+					the end of this page it works properly while the purple color box's
+					position is absolute. the what is the problem with parent class?
+				</p>
+				<ul class="align">
+					<li>Home</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Help</li>
+					<li>FAQ</li>
+				</ul>
+			</nav>
+		</div>
 
-    <body>
+		<div class="heading">
+			<h1>This page is about position property in CSS</h1>
+		</div>
 
-        <div class="box7">
-            <nav>
-                <p>
-                    Here this section has a problem. The problem is this section work properly with its CSS property
-                    when the parent class's position is relative but it doesn't work properly when the parent class's
-                    position is absolute but in the end of this page it works properly while the purple color box's
-                    position is absolute. the what is the problem with parent class?
-                </p>
-                <ul class="align">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Help</li>
-                    <li>FAQ</li>
-                </ul>
-            </nav>
-        </div>
+		<div class="box8">
+			<p>
+				<span class="notice"> # Notice: </span>
+				position: relative; position: absolute; position: fixed; position: sticky;
+				Exception: transform, filter, or perspective properties can also make an
+				element appear as positioned. transform: translate(0); filter; invert(0);
+				perspective: 0em
+			</p>
+		</div>
 
-        <div class="heading">
-            <h1>
-                This page is about position property in CSS
-            </h1>
-        </div>
+		<div class="parent">
+			<div class="box box1">
+				These box's by default position value is static which prevents top, bottom,
+				right and left from having an effect. Position property has 5 attributes:
+				1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
+			</div>
 
-        <div class="box8">
-            <p>
-                <span class="notice">
-                    # Notice:
-                </span>
-                position: relative; position: absolute; position: fixed; position: sticky; Exception: transform, filter, or perspective properties can also make an element appear as positioned. transform: translate(0); filter; invert(0); perspective: 0em
-            </p>
-        </div>
+			<div class="box box2">
+				These box's by default position value is static which prevents top, bottom,
+				right and left from having an effect. Position property has 5 attributes:
+				1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
+			</div>
 
-        <div class="parent">
+			<div class="box box3">
+				These box's by default position value is static which prevents top, bottom,
+				right and left from having an effect. Position property has 5 attributes:
+				1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
+			</div>
 
+			<div class="box box4">
+				These box's by default position value is static which prevents top, bottom,
+				right and left from having an effect. Position property has 5 attributes:
+				1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
+			</div>
 
-            <div class="box box1">
-                These box's by default position value is static which prevents top, bottom, right and left from having an effect. Position property has 5 attributes: 1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
-            </div>
+			<div class="box box5">
+				These box's by default position value is static which prevents top, bottom,
+				right and left from having an effect. Position property has 5 attributes:
+				1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
+			</div>
 
-            <div class="box box2">
-                These box's by default position value is static which prevents top, bottom, right and left from having an effect. Position property has 5 attributes: 1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
-            </div>
+			<div class="box6">
+				Here i have a problem with this box. If the parent class's margin and
+				padding is 0 then this box's width can be set 100vw otherwise this is not
+				possible. Why this is happening?
+			</div>
+		</div>
 
-            <div class="box box3">
-                These box's by default position value is static which prevents top, bottom, right and left from having an effect. Position property has 5 attributes: 1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
-            </div>
-
-            <div class="box box4">
-                These box's by default position value is static which prevents top, bottom, right and left from having an effect. Position property has 5 attributes: 1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
-            </div>
-
-            <div class="box box5">
-                These box's by default position value is static which prevents top, bottom, right and left from having an effect. Position property has 5 attributes: 1)static, 2) absolute, 3) relatives, 4) fixed, 5) sticky
-            </div>
-
-            <div class="box6">
-                Here i have a problem with this box. If the parent class's margin and padding is 0 then this box's width can be set 100vw otherwise this is not possible. Why this is happening?
-            </div>
-
-        </div>
-
-        <div class="margin">
-            <span>
-                a a Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facilis qui officia libero id ut
-                ullam quia illo necessitatibus praesentium dolor eligendi tempore laboriosam consectetur labore quod
-                tempora ipsa tenetur rem eos totam quos reprehenderit. Perspiciatis, nostrum harum! Blanditiis, esse.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo optio aspernatur facilis a eveniet nobis
-                eos veritatis sed voluptates quo excepturi dolores voluptatibus reprehenderit accusamus aliquid unde
-                porro, iure ipsa ut aliquam possimus itaque pariatur amet! Ex quas eveniet ipsa dolorum id quisquam, non
-                corporis a deleniti, consequuntur laudantium? Laudantium eaque doloremque cupiditate aliquam reiciendis
-                ducimus asperiores saepe. Dolorum natus, consequatur sequi harum soluta minus quos laborum odit
-                distinctio, omnis fugiat laudantium accusamus sed consequuntur quae obcaecati ipsum iure quidem animi
-                nisi. Cumque, similique voluptatem. Ipsa dignissimos esse dicta accusamus cum debitis voluptas nisi
-                repellat inventore recusandae qui, minus ipsum ullam optio. Veritatis quaerat illo, officia sequi vel
-                doloremque exercitationem esse minus, iure quo, excepturi dolorum mollitia consequatur! Doloribus
-                facilis, consectetur voluptatum quo exercitationem sapiente. Quod repudiandae facilis ipsum
-                consequuntur, nulla corporis non consequatur obcaecati a ad odio, culpa rem asperiores amet, illo
-                accusamus magnam animi natus incidunt itaque quisquam doloremque sequi perspiciatis deleniti! Quod, id
-                illum aspernatur veritatis ipsum inventore ratione ad, vitae porro laborum ab, pariatur maxime quia
-                cumque et totam ducimus est veniam reiciendis vero fugiat consequuntur. Quia odit accusamus ex
-                reiciendis aliquid ea accusantium dolorum ab unde est repudiandae doloribus fugit, blanditiis aliquam
-                atque omnis laudantium!lorem100
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, culpa? Magnam maiores nam aliquam omnis et
-                temporibus amet, explicabo consectetur iste eaque exercitationem! Libero voluptates culpa dicta et,
-                dolorum dolorem voluptatem, eos quaerat cupiditate consequuntur mollitia vero quisquam excepturi quod
-                nemo qui non modi blanditiis natus itaque iste consequatur. Veniam optio nihil, accusamus iste ea hic
-                voluptatum repellendus qui modi nostrum atque omnis quidem quo maiores enim nemo nulla obcaecati
-                laudantium est blanditiis reiciendis. Quasi dolorum possimus itaque voluptatem molestiae, molestias
-                aspernatur deserunt impedit explicabo doloremque deleniti esse dolore, sequi quidem fugiat facilis
-                consequuntur quisquam libero. Dolor impedit molestiae fuga? Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Eos libero pariatur voluptate possimus praesentium velit tempore accusamus repellat
-                excepturi dolorem itaque iure doloribus sunt dolores aliquid, modi, quam, officia optio quis temporibus
-                minus aliquam! Corporis quae impedit minus sit consequuntur eaque, velit eum tenetur est sed praesentium
-                hic eos alias nemo eveniet veritatis corrupti ea perspiciatis! Dolorem laboriosam, inventore nostrum,
-                nam atque architecto earum tenetur animi non velit omnis, eos ipsa provident! Nulla quaerat rerum
-                similique distinctio quos dolores a voluptatibus tempora fuga dolorum possimus sed dolorem impedit
-                tempore repudiandae iste maxime, porro numquam facilis, minus quas. Nihil facere aliquid excepturi,
-                perferendis iure reiciendis hic sunt in incidunt eveniet? Vel labore repellat, possimus ut voluptates
-                neque dolorem unde placeat tenetur similique ratione ab nulla nesciunt quidem earum rerum vitae?
-                Ratione, praesentium vero accusantium maxime qui veritatis fuga. Voluptatem ut veniam ea perferendis
-                sit, reiciendis eum mollitia minus, placeat hic odio excepturi aliquid doloribus velit! Quasi eligendi
-                fugiat, veniam iure sunt a modi saepe voluptas odit libero excepturi, adipisci quibusdam blanditiis quae
-                quo optio necessitatibus. Vel temporibus cum nulla eligendi cumque, ipsa aspernatur accusamus veritatis
-                enim aperiam, placeat fuga! Quaerat laboriosam ipsam fugiat soluta beatae omnis, cupiditate debitis,
-                quis culpa aut tempora? Eos repudiandae officiis commodi odit. Itaque modi qui dolor ad consequuntur
-                aperiam libero accusantium ipsa, voluptate nemo fugit, hic voluptatibus iste provident eum culpa. Sit
-                est, dolorum cupiditate ad, in, maiores ut accusamus vero asperiores dicta itaque maxime voluptates
-                reprehenderit tenetur. Laboriosam minima dignissimos distinctio sequi dolore vel eligendi perspiciatis.
-                Error excepturi quos officiis non eius, quisquam consequatur id? Quidem rem, natus corporis beatae
-                consectetur officia quam exercitationem fugiat aliquam omnis odio dolores tempore numquam voluptatem
-                sunt placeat porro adipisci. Ut nam nihil praesentium quibusdam voluptatibus repellat porro doloremque
-                neque totam magni, nisi dolorum! Enim culpa natus quasi molestiae? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Nihil iusto, qui quidem doloremque esse pariatur eligendi placeat
-                exercitationem accusantium optio ipsum consectetur vel beatae, fuga dignissimos et quia atque minima
-                quas obcaecati quam nostrum! In debitis saepe iste molestiae quibusdam, expedita veniam, minima iusto
-                dolores delectus non sapiente? Ipsam consectetur quas expedita magnam beatae voluptatem ut molestias
-                accusantium quos praesentium, eligendi tempora, maiores et minima sequi! Molestiae atque eveniet
-                veritatis error nesciunt eius impedit beatae delectus ad nostrum, iste suscipit quibusdam! Error rerum
-                nobis, ea quia repellat quas ratione quasi qui, alias cum temporibus iusto officia facere soluta
-                reprehenderit amet atque quidem natus veritatis perspiciatis provident labore voluptates nulla! Cumque
-                placeat delectus quaerat hic tempore dicta veritatis nesciunt. Placeat, dolorem. Corrupti vel nobis eos
-                modi veniam reiciendis repellat saepe, adipisci quae, sint eaque cupiditate, praesentium earum? Nostrum
-                rerum fugit dicta nemo ab iusto voluptatibus atque odit. Reiciendis cumque sequi tempora tenetur
-                pariatur dolore distinctio ratione, architecto nesciunt maiores dolorum voluptatem adipisci placeat in
-                voluptatibus sunt ad iure ipsum. Iusto eum culpa consectetur voluptates exercitationem similique
-                voluptatem possimus animi pariatur obcaecati veniam rem inventore maiores rerum id alias quaerat,
-                mollitia doloremque voluptas, beatae dicta provident excepturi? Eligendi, non! Aliquid, temporibus
-                distinctio dolores impedit tempore a commodi ducimus eos? Repellat, culpa? In eveniet nulla
-                reprehenderit libero suscipit natus perspiciatis eius iure dolore dicta consectetur vitae, mollitia
-                exercitationem accusamus incidunt, velit omnis cumque voluptatibus ex ullam. Fuga neque, accusamus eius
-                impedit similique atque ducimus laboriosam dolor ipsum asperiores voluptates. Tempora impedit rerum
-                sapiente. Et eos ipsa corrupti nobis! Eveniet omnis ab eum quae excepturi voluptas iusto, animi eaque
-                placeat possimus libero ipsum necessitatibus dicta deserunt voluptatem doloremque inventore maxime
-                provident amet mollitia ad numquam voluptates nihil temporibus. Deleniti est temporibus doloremque,
-                totam aut exercitationem fugit saepe quae laborum dicta autem quasi qui quia.
-            </span>
-        </div>
-
-    </body>
-
+		<div class="margin">
+			<span>
+				a a Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+				facilis qui officia libero id ut ullam quia illo necessitatibus praesentium
+				dolor eligendi tempore laboriosam consectetur labore quod tempora ipsa
+				tenetur rem eos totam quos reprehenderit. Perspiciatis, nostrum harum!
+				Blanditiis, esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Illo optio aspernatur facilis a eveniet nobis eos veritatis sed voluptates
+				quo excepturi dolores voluptatibus reprehenderit accusamus aliquid unde
+				porro, iure ipsa ut aliquam possimus itaque pariatur amet! Ex quas eveniet
+				ipsa dolorum id quisquam, non corporis a deleniti, consequuntur laudantium?
+				Laudantium eaque doloremque cupiditate aliquam reiciendis ducimus asperiores
+				saepe. Dolorum natus, consequatur sequi harum soluta minus quos laborum odit
+				distinctio, omnis fugiat laudantium accusamus sed consequuntur quae
+				obcaecati ipsum iure quidem animi nisi. Cumque, similique voluptatem. Ipsa
+				dignissimos esse dicta accusamus cum debitis voluptas nisi repellat
+				inventore recusandae qui, minus ipsum ullam optio. Veritatis quaerat illo,
+				officia sequi vel doloremque exercitationem esse minus, iure quo, excepturi
+				dolorum mollitia consequatur! Doloribus facilis, consectetur voluptatum quo
+				exercitationem sapiente. Quod repudiandae facilis ipsum consequuntur, nulla
+				corporis non consequatur obcaecati a ad odio, culpa rem asperiores amet,
+				illo accusamus magnam animi natus incidunt itaque quisquam doloremque sequi
+				perspiciatis deleniti! Quod, id illum aspernatur veritatis ipsum inventore
+				ratione ad, vitae porro laborum ab, pariatur maxime quia cumque et totam
+				ducimus est veniam reiciendis vero fugiat consequuntur. Quia odit accusamus
+				ex reiciendis aliquid ea accusantium dolorum ab unde est repudiandae
+				doloribus fugit, blanditiis aliquam atque omnis laudantium!lorem100 Lorem
+				ipsum dolor sit amet consectetur adipisicing elit. Et, culpa? Magnam maiores
+				nam aliquam omnis et temporibus amet, explicabo consectetur iste eaque
+				exercitationem! Libero voluptates culpa dicta et, dolorum dolorem
+				voluptatem, eos quaerat cupiditate consequuntur mollitia vero quisquam
+				excepturi quod nemo qui non modi blanditiis natus itaque iste consequatur.
+				Veniam optio nihil, accusamus iste ea hic voluptatum repellendus qui modi
+				nostrum atque omnis quidem quo maiores enim nemo nulla obcaecati laudantium
+				est blanditiis reiciendis. Quasi dolorum possimus itaque voluptatem
+				molestiae, molestias aspernatur deserunt impedit explicabo doloremque
+				deleniti esse dolore, sequi quidem fugiat facilis consequuntur quisquam
+				libero. Dolor impedit molestiae fuga? Lorem ipsum, dolor sit amet
+				consectetur adipisicing elit. Eos libero pariatur voluptate possimus
+				praesentium velit tempore accusamus repellat excepturi dolorem itaque iure
+				doloribus sunt dolores aliquid, modi, quam, officia optio quis temporibus
+				minus aliquam! Corporis quae impedit minus sit consequuntur eaque, velit eum
+				tenetur est sed praesentium hic eos alias nemo eveniet veritatis corrupti ea
+				perspiciatis! Dolorem laboriosam, inventore nostrum, nam atque architecto
+				earum tenetur animi non velit omnis, eos ipsa provident! Nulla quaerat rerum
+				similique distinctio quos dolores a voluptatibus tempora fuga dolorum
+				possimus sed dolorem impedit tempore repudiandae iste maxime, porro numquam
+				facilis, minus quas. Nihil facere aliquid excepturi, perferendis iure
+				reiciendis hic sunt in incidunt eveniet? Vel labore repellat, possimus ut
+				voluptates neque dolorem unde placeat tenetur similique ratione ab nulla
+				nesciunt quidem earum rerum vitae? Ratione, praesentium vero accusantium
+				maxime qui veritatis fuga. Voluptatem ut veniam ea perferendis sit,
+				reiciendis eum mollitia minus, placeat hic odio excepturi aliquid doloribus
+				velit! Quasi eligendi fugiat, veniam iure sunt a modi saepe voluptas odit
+				libero excepturi, adipisci quibusdam blanditiis quae quo optio
+				necessitatibus. Vel temporibus cum nulla eligendi cumque, ipsa aspernatur
+				accusamus veritatis enim aperiam, placeat fuga! Quaerat laboriosam ipsam
+				fugiat soluta beatae omnis, cupiditate debitis, quis culpa aut tempora? Eos
+				repudiandae officiis commodi odit. Itaque modi qui dolor ad consequuntur
+				aperiam libero accusantium ipsa, voluptate nemo fugit, hic voluptatibus iste
+				provident eum culpa. Sit est, dolorum cupiditate ad, in, maiores ut
+				accusamus vero asperiores dicta itaque maxime voluptates reprehenderit
+				tenetur. Laboriosam minima dignissimos distinctio sequi dolore vel eligendi
+				perspiciatis. Error excepturi quos officiis non eius, quisquam consequatur
+				id? Quidem rem, natus corporis beatae consectetur officia quam
+				exercitationem fugiat aliquam omnis odio dolores tempore numquam voluptatem
+				sunt placeat porro adipisci. Ut nam nihil praesentium quibusdam voluptatibus
+				repellat porro doloremque neque totam magni, nisi dolorum! Enim culpa natus
+				quasi molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Nihil iusto, qui quidem doloremque esse pariatur eligendi placeat
+				exercitationem accusantium optio ipsum consectetur vel beatae, fuga
+				dignissimos et quia atque minima quas obcaecati quam nostrum! In debitis
+				saepe iste molestiae quibusdam, expedita veniam, minima iusto dolores
+				delectus non sapiente? Ipsam consectetur quas expedita magnam beatae
+				voluptatem ut molestias accusantium quos praesentium, eligendi tempora,
+				maiores et minima sequi! Molestiae atque eveniet veritatis error nesciunt
+				eius impedit beatae delectus ad nostrum, iste suscipit quibusdam! Error
+				rerum nobis, ea quia repellat quas ratione quasi qui, alias cum temporibus
+				iusto officia facere soluta reprehenderit amet atque quidem natus veritatis
+				perspiciatis provident labore voluptates nulla! Cumque placeat delectus
+				quaerat hic tempore dicta veritatis nesciunt. Placeat, dolorem. Corrupti vel
+				nobis eos modi veniam reiciendis repellat saepe, adipisci quae, sint eaque
+				cupiditate, praesentium earum? Nostrum rerum fugit dicta nemo ab iusto
+				voluptatibus atque odit. Reiciendis cumque sequi tempora tenetur pariatur
+				dolore distinctio ratione, architecto nesciunt maiores dolorum voluptatem
+				adipisci placeat in voluptatibus sunt ad iure ipsum. Iusto eum culpa
+				consectetur voluptates exercitationem similique voluptatem possimus animi
+				pariatur obcaecati veniam rem inventore maiores rerum id alias quaerat,
+				mollitia doloremque voluptas, beatae dicta provident excepturi? Eligendi,
+				non! Aliquid, temporibus distinctio dolores impedit tempore a commodi
+				ducimus eos? Repellat, culpa? In eveniet nulla reprehenderit libero suscipit
+				natus perspiciatis eius iure dolore dicta consectetur vitae, mollitia
+				exercitationem accusamus incidunt, velit omnis cumque voluptatibus ex ullam.
+				Fuga neque, accusamus eius impedit similique atque ducimus laboriosam dolor
+				ipsum asperiores voluptates. Tempora impedit rerum sapiente. Et eos ipsa
+				corrupti nobis! Eveniet omnis ab eum quae excepturi voluptas iusto, animi
+				eaque placeat possimus libero ipsum necessitatibus dicta deserunt voluptatem
+				doloremque inventore maxime provident amet mollitia ad numquam voluptates
+				nihil temporibus. Deleniti est temporibus doloremque, totam aut
+				exercitationem fugit saepe quae laborum dicta autem quasi qui quia.
+			</span>
+		</div>
+	</body>
 </html>
